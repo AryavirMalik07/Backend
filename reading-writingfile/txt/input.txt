@@ -1,0 +1,1 @@
+This paper discusses the implementation details of a child friendly, good quality, English text-to-speech (TTS) system that is phoneme-based, concatenative, easy to set up and use with little memory.
