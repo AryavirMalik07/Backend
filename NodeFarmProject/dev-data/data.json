@@ -1,0 +1,46 @@
+[
+  {
+    "id": 0,
+    "productName": "Fresh Avocardo",
+    "image": "🥑",
+    "from": "spain",
+    "nutrients": "Vitamin A",
+    "quantity": "4",
+    "price": "6.50",
+    "organic": true,
+    "description": "Create the intersection observer by calling its constructor and passing it a callback function to be run whenever a threshold is crossed in one direction or the other:"
+  },
+  {
+    "id": 1,
+    "productName": "Fresh peach",
+    "image": "🍑",
+    "from": "India",
+    "nutrients": "Vitamin A",
+    "quantity": "4",
+    "price": "6.50",
+    "organic": false,
+    "description": "Create the intersection observer by calling its constructor and passing it a callback function to be run whenever a threshold is crossed in one direction or the other:"
+  },
+  {
+    "id": 2,
+    "productName": "Fresh Broccle",
+    "image": "🥦",
+    "from": "spain",
+    "nutrients": "Vitamin A",
+    "quantity": "4",
+    "price": "6.50",
+    "organic": true,
+    "description": "Create the intersection observer by calling its constructor and passing it a callback function to be run whenever a threshold is crossed in one direction or the other:"
+  },
+  {
+    "id": 3,
+    "productName": "Fresh Watermelon",
+    "image": "🍉",
+    "from": "America",
+    "nutrients": "Vitamin A",
+    "quantity": "4",
+    "price": "6.50",
+    "organic": false,
+    "description": "Create the intersection observer by calling its constructor and passing it a callback function to be run whenever a threshold is crossed in one direction or the other:"
+  }
+]
