@@ -4,13 +4,13 @@ const fs = require("fs");
 
 const router = express.Router();
 
-router.param("id", tourController.checlId);
+// router.param("id", tourController.checlId);
 // router.param("/", tourController.checkData);
 
 router
   .route("/")
   .get(tourController.getAllTours)
-  .post(tourController.checkData, tourController.createTour);
+  .post(tourController.createTour);
 router
   .route("/:id")
   .get(tourController.getTour)
