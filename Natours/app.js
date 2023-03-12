@@ -29,3 +29,5 @@ app.use("/api/v1/users", userRouter);
 app.listen(3000, () => {
   console.log("port on 3000");
 });
+
+module.exports = app;
