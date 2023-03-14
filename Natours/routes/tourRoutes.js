@@ -1,11 +1,19 @@
 const express = require("express");
 const tourController = require("./../controllers/tourController");
 const fs = require("fs");
+const { routes } = require("../app");
 
 const router = express.Router();
 
 // router.param("id", tourController.checlId);
 // router.param("/", tourController.checkData);
+router
+  .route("/top-5-cheap")
+  .get(tourController.aliasTopTours, tourController.getAllTours);
+
+router
+  .route("/top-tour")
+  .get(tourController.aliasTours, tourController.getAllTours);
 
 router
   .route("/")

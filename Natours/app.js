@@ -26,8 +26,8 @@ app.use("/api/v1/tours", tourRouter);
 
 app.use("/api/v1/users", userRouter);
 
-app.listen(3000, () => {
-  console.log("port on 3000");
+app.listen(3001, () => {
+  console.log("port on 3001");
 });
 
 module.exports = app;
