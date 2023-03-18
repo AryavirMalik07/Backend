@@ -42,4 +42,4 @@ class APIFeatures {
   }
 }
 
-module.exports = APIFeatureswdw;
+module.exports = APIFeatures;
