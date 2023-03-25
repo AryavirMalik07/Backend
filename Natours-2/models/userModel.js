@@ -85,6 +85,20 @@ userSchema.methods.changedPasswordAfter = function (JWTTimestamp) {
   }
   return false;
 };
+
+userSchema.methods.createPasswordResetToken = function () {
+  const resetToken = crypto.randomBytes(32).toString("hex");
+
+  this.passwordResetToken = crypto
+    .createHash("sha256")
+    .update(resetToken)
+    .digest("hex");
+  console.log({ resetToken }, this.passwordResetToken);
+
+  this.passwordResetExpires = Date.now() + 10 * 60 * 1000;
+
+  return resetToken;
+};
 // userSchema.pre(/^find/, function (next) {
 //   // this points to the current query
 //   this.find({ active: { $ne: false } });
